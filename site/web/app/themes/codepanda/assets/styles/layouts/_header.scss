@@ -1,0 +1,41 @@
+header.banner {
+  background-color: #fff ;
+
+  .logo {
+    text-align: center;
+
+    .avatar {
+      max-width: 150px;
+      height: auto;
+      border-radius: 50%;
+      display: block;
+      margin: 10px auto;
+    }
+
+    .name {
+      font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+      font-size: 18pt;
+      margin-bottom: 0;
+    }
+
+    .function {
+      font-family: "proxima-nova", "Helvetica Neue", sans-serif;
+      font-size: 16pt;
+      font-style: italic;
+    }
+  }
+
+  .nav-primary {
+
+    li:before {
+      content: "\25CF";
+      padding: 0 5%;
+    }
+
+    li:first-child:before {
+      content: "";
+    }
+  }
+}
+
+
